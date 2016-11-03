@@ -32,8 +32,8 @@
             <ul id="myUL">
                 <li><a class="header">Old Testament</a></li>
                 <li><a href="genesis.php">Genesis</a></li>
+                <li><a href="exodus.php">Exodus</a></li>
                 <!--
-                <li><a href="#">Exodus</a></li>
                 <li><a href="#">Leviticus</a></li>
                 <li><a href="#">Numbers</a></li>
                 <li><a href="#">Deuteronomy</a></li>

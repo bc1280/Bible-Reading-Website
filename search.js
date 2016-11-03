@@ -7,7 +7,7 @@ function searchKey() {
     filter = input.value.toUpperCase();
     ul = document.getElementById("myUL");
     li = ul.getElementsByTagName("li");
-    for (i = 1; i < 2; i++) {
+    for (i = 1; i < 3; i++) {
         a = li[i].getElementsByTagName("a")[0];
         if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = "";
@@ -16,7 +16,7 @@ function searchKey() {
 
         }
     }
-    for (i = 3; i < 30; i++) {
+    for (i = 4; i < 31; i++) {
         a = li[i].getElementsByTagName("a")[0];
         if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = "";
@@ -25,7 +25,7 @@ function searchKey() {
 
         }
     }
-    for (i = 1; i < 2; i++) {
+    for (i = 1; i < 3; i++) {
         if (li[i].style.display == "") {
             li[0].style.display = "";
             break;
@@ -33,12 +33,12 @@ function searchKey() {
             li[0].style.display = "none";
         }
     }
-    for (i = 3; i < 30; i++) {
+    for (i = 4; i < 31; i++) {
         if (li[i].style.display == "") {
-            li[2].style.display = "";
+            li[3].style.display = "";
             break;
         } else {
-            li[2].style.display = "none";
+            li[3].style.display = "none";
         }
     }
 }
